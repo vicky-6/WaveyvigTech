@@ -1,0 +1,29 @@
+import { useState } from 'react'
+import './App.css'
+import WigeyvigTechNavbar from './components/Navbar'
+import { Routes, Route, Navigate } from 'react-router-dom'
+import Home from './pages/Home'
+import Careers from './pages/Careers'
+import Classes from './pages/Classes'
+import Services from './pages/Services'
+
+function App() {
+
+
+  return (
+    <>
+    <WigeyvigTechNavbar/>
+    <Routes>
+      <Route path="/" element={<Navigate to="/home" replace />} />
+      <Route path='/home' element={<Home/>}/>
+      <Route path='/careers' element={<Careers/>}/>
+      <Route path='/classes' element={<Classes/>} />
+      <Route path='/services' element={<Services/>} />
+      <Route path="*" element={<h2>Page Not Found</h2>} />
+    </Routes>
+
+    </>
+  )
+}
+
+export default App
