@@ -57,6 +57,22 @@ const servicesData = [
     points: ["SEO optimization", "Social media campaigns", "Analytics & reporting"],
     icon: "📢",
   },
+  {
+    id: 7,
+    title: "Branding",
+    description:
+      "We help you establish a strong brand identity by creating impactful logos, brand guidelines, and consistent visual themes.",
+    points: ["Logo design", "Brand guidelines", "Visual identity"],
+    icon: "🎨",
+  },
+  {
+    id: 8,
+    title: "ECommerce",
+    description:
+      "Launch secure, scalable, and user-friendly online stores with seamless product management and payment integration.",
+    points: ["Online store setup", "Payment gateways", "Order management"],
+    icon: "🛒",
+  },
 ];
 
 export default servicesData;
