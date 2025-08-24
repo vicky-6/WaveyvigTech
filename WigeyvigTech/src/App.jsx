@@ -8,6 +8,7 @@ import Classes from './pages/Classes'
 import Services from './pages/Services'
 import Training from './pages/Training'
 import Footer from './components/Footer'
+import About from './pages/About'
 
 function App() {
 
@@ -22,6 +23,8 @@ function App() {
       <Route path='/training' element={<Training/>}/>
       <Route path='/classes' element={<Classes/>} />
       <Route path='/services' element={<Services/>} />
+      <Route path='/about' element={<About/>} />
+      
       <Route path="*" element={<h2>Page Not Found</h2>} />
     </Routes>
     <Footer/>

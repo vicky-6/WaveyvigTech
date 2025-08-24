@@ -11,9 +11,10 @@ function Services() {
   }
 
   return (
-    <div style={{ backgroundColor: "#0d1b7e", minHeight: "100vh" }}> 
+    <div style={{ backgroundColor: "#0b1d57", minHeight: "100vh" }}> 
       <Container fluid className="py-5 text-white mt-3">
-        <h2 className="text-center mb-4">Our Services</h2>
+        <h2 className="text-center mb-4 text-decoration-underline" >Our Services</h2>
+        <h4 className="text-center text-muted-white mb-5">We offer a wide range of technology services to help your business succeed in the digital age.</h4>
         <Carousel
           indicators={false}
           controls={true}
