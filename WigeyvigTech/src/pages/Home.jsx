@@ -2,7 +2,7 @@ import React from "react";
 import WhyChoose from "./Home/WhyChoose";
 import OurSolution from "./Home/OurSolution";
 import OurServices from "./Home/OurServices";
-import HeroSection from "./Home/heroSection";
+import HeroSection from "./Home/HeroSectionmain"
 
 function Home() {
 
