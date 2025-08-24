@@ -34,7 +34,7 @@ function WigeyvigTechNavbar() {
         </Navbar.Toggle>
 
         {/* Collapsible menu */}
-        <Navbar.Collapse id="wigeyvig-navbar" >
+        <Navbar.Collapse id="wigeyvig-navbar">
           <Nav className="ms-auto text-white gap-2">
             <Nav.Link as={Link} to="/home" className="text-white" onClick={handleClose}>
               Home
