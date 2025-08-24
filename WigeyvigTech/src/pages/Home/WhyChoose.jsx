@@ -6,7 +6,7 @@ const WhyChoose = () => {
     <section className="py-5 text-white" style={{ backgroundColor: "#1a1a4b", padding: "50px 0" }}>
           <div className="container">
             <h2 className="text-center fw-bold text-info mb-4">
-              Why Choose Zhahi Info Tech?
+              Why Choose WaveyvigTech?
             </h2>
             <div className="row">
               {whyChoose.map((item) => (

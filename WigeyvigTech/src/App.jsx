@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import WigeyvigTechNavbar from './components/Navbar'
+import WaveyvigTechNavbar from './components/Navbar'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import Home from './pages/Home'
 import Careers from './pages/Careers'
@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-    <WigeyvigTechNavbar/>
+    <WaveyvigTechNavbar/>
     <Routes>
       <Route path="/" element={<Navigate to="/home" replace />} />
       <Route path='/home' element={<Home/>}/>

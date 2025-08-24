@@ -20,8 +20,7 @@ function Footer() {
           <Col lg={3} md={6} className="mb-4">
             <h4 className="fw-bold"> <i className="bi bi-arrow-through-heart"></i> WigeyvigTech</h4>
             <p>
-              Transforming ideas into digital reality through innovative
-              technology solutions.
+              Shaping Your Vision Into Digital Solutions.
             </p>
             <div className="d-flex gap-3">
               <a href="#" style={{ color: "white" }}>

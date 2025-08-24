@@ -42,18 +42,13 @@ const About = () => {
           <div className="col-md-7">
             <h3 className="text-info mb-3">Our Journey</h3>
             <p>
-              Zhahi Info Tech is a premier technology solutions provider
-              headquartered in Theni, Tamil Nadu, specializing in end-to-end
-              digital services for businesses, startups, and individuals.
+              <span className="fw-bold fs-3">WaveyVigTech</span> is a premier technology solutions provider based in Tamil Nadu, delivering end-to-end digital services for businesses, startups, and individuals.
             </p>
             <p>
-              At Zhahi Info Tech, we are a team of passionate IT professionals
-              dedicated to providing top-notch software development, web design,
-              digital marketing, IT consulting, and technical support.
+              At <span className="fw-bold fs-3">WaveyVigTech,</span> our team of passionate IT professionals is committed to excellence in <span className="fw-bold"> software development, web design, digital marketing, IT consulting, and technical support.</span> 
             </p>
             <p>
-              At Zhahi, we believe in the power of technology to transform
-              businesses and enhance human experiences.
+              We believe in the power of technology to <span className="fw-bold"> transform ideas into digital reality,</span> driving innovation, growth, and enhanced experiences for every client we serve.
             </p>
             <div className="mt-4">
               <button className="btn btn-primary me-3">Join Our Team</button>

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Container, Nav, Navbar, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-function WigeyvigTechNavbar() {
+function WaveyvigTechNavbar() {
   const [expanded, setExpanded] = useState(false);
 
   const handleClose = () => setExpanded(false);
@@ -17,7 +17,7 @@ function WigeyvigTechNavbar() {
     >
       <Container>
         <Navbar.Brand className="fw-bold" style={{ color: "white" }}>
-          <i className="bi bi-arrow-through-heart"></i> WigeyVig-Tech
+          <i className="bi bi-arrow-through-heart"></i> Waveyvig-Tech
         </Navbar.Brand>
 
         {/* Toggle button */}
@@ -95,4 +95,4 @@ function WigeyvigTechNavbar() {
   );
 }
 
-export default WigeyvigTechNavbar;
+export default WaveyvigTechNavbar;
