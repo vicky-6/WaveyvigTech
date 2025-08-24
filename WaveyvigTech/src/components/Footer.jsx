@@ -18,7 +18,7 @@ function Footer() {
         <Row>
           {/* Logo + About */}
           <Col lg={3} md={6} className="mb-4">
-            <h4 className="fw-bold"> <i className="bi bi-arrow-through-heart"></i> WigeyvigTech</h4>
+            <h4 className="fw-bold"> <i className="bi bi-arrow-through-heart"></i> WaveyvigTech</h4>
             <p>
               Shaping Your Vision Into Digital Solutions.
             </p>
@@ -71,7 +71,7 @@ function Footer() {
             <h5 style={{ color: "#00bcd4" }}>Contact Us</h5>
             <p>
               <FaMapMarkerAlt className="me-2" />
-              WigeyvigTech, Bodinayakanur, Theni – 625513.
+              WaveyvigTech, Bodinayakanur, Theni – 625513.
             </p>
             <p>
               <FaPhoneAlt className="me-2" /> +91 8248429488
@@ -92,7 +92,7 @@ function Footer() {
           fontSize: "14px",
         }}
       >
-        © 2025 WigeyvigTech Info Tech. All rights reserved.
+        © 2025 WaveyvigTech Info Tech. All rights reserved.
       </div>
     </footer>
   );

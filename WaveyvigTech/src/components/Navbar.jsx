@@ -22,14 +22,14 @@ function WaveyvigTechNavbar() {
 
         {/* Toggle button */}
         <Navbar.Toggle
-          aria-controls="wigeyvig-navbar"
+          aria-controls="WaveyvigTech-navbar"
           onClick={() => setExpanded(expanded ? false : true)}
         >
           <i className="bi bi-menu-button-wide"></i>
         </Navbar.Toggle>
 
         {/* Collapsible menu */}
-        <Navbar.Collapse id="wigeyvig-navbar">
+        <Navbar.Collapse id="WaveyvigTech-navbar">
           <Nav className="ms-auto text-white gap-2">
             <Nav.Link
               as={Link}
