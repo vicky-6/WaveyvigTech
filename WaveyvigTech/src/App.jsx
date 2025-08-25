@@ -10,6 +10,7 @@ import Training from './pages/Training'
 import Footer from './components/Footer'
 import About from './pages/About'
 import WhatsAppButton from './components/WhatsAppButton'
+import ChatBot from './components/Chatbot'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
     </Routes>
     <Footer/>
     <WhatsAppButton />
+    <ChatBot />
 
     </>
   )

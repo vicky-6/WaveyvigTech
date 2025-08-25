@@ -9,6 +9,7 @@ const Testimonials = () => {
       quote:
         'The IT consulting team at WaveyVigTech guided us through a critical digital transformation journey. Their clear strategy, in-depth knowledge, and reliable support helped us streamline processes and reduce costs. We now operate with greater efficiency and confidence in our systems',
       bgColor: '#65589C', // Light purple background
+      avatar: "/avatar2.jpeg",
     },
     {
       name: 'Jonathan Walters',
@@ -57,6 +58,7 @@ const Testimonials = () => {
                       borderRadius: '50%',
                       backgroundColor: '#ccc', // Placeholder for avatar
                       marginRight: '10px',
+                      backgroundImage: 'url(/avatar3.jpeg)',
                     }}
                   />
                   <div>
