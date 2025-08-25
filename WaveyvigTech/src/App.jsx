@@ -1,16 +1,16 @@
 import { useState } from 'react'
 import './App.css'
 import WaveyvigTechNavbar from './components/Navbar'
-import { Routes, Route, Navigate } from 'react-router-dom'
-import Home from './pages/Home'
-import Careers from './pages/Careers'
-import Classes from './pages/Classes'
-import Services from './pages/Services'
-import Training from './pages/Training'
+import { Routes, Route, Navigate} from 'react-router-dom'
 import Footer from './components/Footer'
-import About from './pages/About'
+import About from './pages/About/About'
 import WhatsAppButton from './components/WhatsAppButton'
 import ChatBot from './components/Chatbot'
+import CareersMain from './pages/Careers/CareersMain'
+import HomeMain from './pages/Home/HomeMain'
+import TrainingMain from './pages/Training/TrainingMain'
+import Servicesmain from './pages/Service/Servicesmain'
+import Fullstack from './pages/LiveBootCamp/FullStack'
 
 function App() {
 
@@ -20,15 +20,17 @@ function App() {
     <WaveyvigTechNavbar/>
     <Routes>
       <Route path="/" element={<Navigate to="/home" replace />} />
-      <Route path='/home' element={<Home/>}/>
-      <Route path='/careers' element={<Careers/>}/>
-      <Route path='/training' element={<Training/>}/>
-      <Route path='/classes' element={<Classes/>} />
-      <Route path='/services' element={<Services/>} />
-      <Route path='/about' element={<About/>} />
+      <Route path='/home' element={<HomeMain />}/>
+      <Route path='/careers' element={<CareersMain />}/>
+      <Route path='/training' element={<TrainingMain/>}/>
+      {/* <Route path='/classes' element={<Classes/>} /> */}
+      <Route path='/services' element={<Servicesmain />} />
+      <Route path='/about' element={<About />} />
       
       <Route path="*" element={<h2>Page Not Found</h2>} />
+      <Route path="/fullstack-course" element={<Fullstack />} />
     </Routes>
+    
     <Footer/>
     <WhatsAppButton />
     <ChatBot />

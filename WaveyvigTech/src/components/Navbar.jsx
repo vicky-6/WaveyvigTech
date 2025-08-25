@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Nav, Navbar, Button } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
+import LiveBootCamp from "../pages/LiveBootCamp/LiveBootCamp";
 
 function WaveyvigTechNavbar() {
   const [expanded, setExpanded] = useState(false);
@@ -68,12 +69,14 @@ function WaveyvigTechNavbar() {
             <Nav.Link as={Link} to="/careers" className="text-white" onClick={handleClose}>
               Careers
             </Nav.Link>
-            <Nav.Link as={Link} to="/classes" className="text-white" onClick={handleClose}>
+            {/* <Nav.Link as={Link} to="/classes" className="text-white" onClick={handleClose}>
               Classes
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link as={Link} to="/about" className="text-white" onClick={handleClose}>
               About-Us
             </Nav.Link>
+            <LiveBootCamp />
+            
             <Button
               as="a"
               href="https://wa.me/918248429488"
