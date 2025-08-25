@@ -1,6 +1,9 @@
 import React from 'react'
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { Link } from 'react-router-dom';
+import TextJump from '../../ReusableComponents/TextJump';
+import JumpFullText from '../../ReusableComponents/TextFullJump'
+
 
 const HeroSection = () => {
   return (
@@ -36,9 +39,9 @@ const HeroSection = () => {
           <Row className="justify-content-center">
             <Col md={10} lg={8}>
               <h1 className="fw-bold display-4">
-                Shaping Your Vision Into{" "}
+                <JumpFullText>Shaping Your Vision Into</JumpFullText> {" "}<br></br>
                 <span className="fw-bold" style={{ color: "#2bbcff" }}>
-                  Digital Solutions
+                  <TextJump text="Digital Solutions"></TextJump>
                 </span>
               </h1>
               <p className="mt-3">
