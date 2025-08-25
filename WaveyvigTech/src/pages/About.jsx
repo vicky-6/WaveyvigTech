@@ -26,7 +26,7 @@ const Counter = ({ target, duration }) => {
 
 const About = () => {
   return (
-    <section className="py-5 text-white mt-5" style={{ backgroundColor: "#0b1d57", minHeight: "100vh" }}>
+    <section className="py-5 text-white pt-5" style={{ backgroundColor: "#0b1d57", minHeight: "100vh" }}>
       <div className="container">
         <h2 className="text-center fw-bold text-info mb-3">
           About Zhahi Info Tech

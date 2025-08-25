@@ -9,6 +9,7 @@ import Services from './pages/Services'
 import Training from './pages/Training'
 import Footer from './components/Footer'
 import About from './pages/About'
+import WhatsAppButton from './components/WhatsAppButton'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <Route path="*" element={<h2>Page Not Found</h2>} />
     </Routes>
     <Footer/>
+    <WhatsAppButton />
 
     </>
   )

@@ -12,7 +12,7 @@ function ServicesSlider() {
 
   return (
     <div style={{ backgroundColor: "#0b1d57", minHeight: "100vh" }}> 
-      <Container fluid className="pt-5 text-white mt-3">
+      <Container fluid className=" text-white pt-5">
         <h2 className="text-center mb-4 text-decoration-underline" >Our Services</h2>
         <h4 className="text-center text-muted-white mb-5">We offer a wide range of technology services to help your business succeed in the digital age.</h4>
         <Carousel

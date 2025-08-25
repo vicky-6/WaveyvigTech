@@ -26,7 +26,7 @@ const OurProcess = () => {
   ];
 
   return (
-    <Container fluid className="text-center mt-0" style={{backgroundColor:"#0b1d57"}}>
+    <Container fluid className="text-center mt-0 px-5" style={{backgroundColor:"#0b1d57"}}>
       <h2 className="text-primary mb-3 text-decoration-underline" style={{color:"#00bcd4"}}>Our Process</h2>
       <p className="mb-4 fw-bold fs-5" style={{color:"white"}}>
         We follow a proven process to deliver high-quality technology solutions.

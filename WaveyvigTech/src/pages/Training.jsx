@@ -1,8 +1,13 @@
 import React from 'react'
+import TrainingHeroSection from './Training/TraingHeroSection'
+import FeaturesAndFormSection from './Training/FormSection'
 
 const Training = () => {
   return (
-    <div>Training</div>
+    <div>
+      <TrainingHeroSection />
+      <FeaturesAndFormSection />
+    </div>
   )
 }
 
