@@ -23,12 +23,12 @@ function App() {
       <Route path='/home' element={<HomeMain />}/>
       <Route path='/careers' element={<CareersMain />}/>
       <Route path='/training' element={<TrainingMain/>}/>
-      {/* <Route path='/classes' element={<Classes/>} /> */}
       <Route path='/services' element={<Servicesmain />} />
       <Route path='/about' element={<About />} />
+      <Route path="/fullstack-course" element={<Fullstack />} />
       
       <Route path="*" element={<h2>Page Not Found</h2>} />
-      <Route path="/fullstack-course" element={<Fullstack />} />
+      
     </Routes>
     
     <Footer/>
